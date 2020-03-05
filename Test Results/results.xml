@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="easyTravel Test Automation" tests="1"  failures="0" errors="0" time="22" >
-  <testsuite name="Contact_Us_Larger_Map" tests="1" failures="0" errors="0" hostname="EC2AMAZ-2O09G2E" time="19" timestamp="2020-02-27T12:49:50.359Z">
-    <testcase name="Contact_Us_Larger_Map" time="19" classname="Contact_Us_Larger_Map">
-    </testcase>
-  </testsuite>
-</testsuites>
