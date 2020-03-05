@@ -127,6 +127,114 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="pageEasytravelOneStepToHappiness2" Key="{DC650DC8-93E3-451E-A12B-33EBA7CABE03}" ParallelWalk="True">
+								<Image FileName="-664967535" Left="-3" Top="71" Right="1919" Bottom="1038" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://54.245.179.85:8080/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formLoginform" Key="{6CAB2BBA-CD83-4EA6-B699-FE776E376AC9}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1074369213" Left="520" Top="71" Right="1380" Bottom="71" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="loginForm" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelIcepnlpop" Key="{A1913606-0E47-4DC4-A1BC-407FA5FEFCDE}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="1074369213" Left="1058" Top="125" Right="1380" Bottom="263" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textboxUsername" Key="{A093BDC2-1F2C-4BDD-B5E0-279C9F755AAA}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="1074369213" Left="1141" Top="166" Right="1364" Bottom="191" />
+														<TypeInfo Item0="{054C3210-BEC1-479D-97C6-7B0FE331A37E}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Textbox" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="username" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="passwordboxPassword" Key="{F3673BBC-A1FF-46F5-A672-18816E11A9D1}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="-386706925" Left="1141" Top="198" Right="1364" Bottom="223" />
+														<TypeInfo Item0="{21B4E526-B3F1-4312-B4EF-7B27149D7B9E}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="PasswordBox" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="password" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="linkLoginlink" Key="{0CEA86D4-7DB7-48B2-8771-94B0D327B1D0}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-664967535" Left="1322" Top="104" Right="1375" Bottom="129" />
+												<TypeInfo Item0="{21B4E526-B3F1-4312-B4EF-7B27149D7B9E}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Link" Type="5" />
+													</Property>
+													<Property Name="contentText">
+														<Value PropertyType="0" Value="Login" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="submitbuttonLogin" Key="{10105D55-6E6A-46F8-80A5-0CD9D7638557}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="2142553924" Left="1289" Top="230" Right="1364" Bottom="250" />
+												<TypeInfo Item0="{57725E0D-6EE0-4F57-A04F-F027D27B68D8}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="SubmitButton" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="loginSubmit" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="linkLogoutlink" Key="{4CEABD94-904B-4EC4-9719-15D0AF4927C8}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-1120117247" Left="1316" Top="108" Right="1375" Bottom="132" />
+												<TypeInfo Item0="{21B4E526-B3F1-4312-B4EF-7B27149D7B9E}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Link" Type="5" />
+													</Property>
+													<Property Name="contentText">
+														<Value PropertyType="0" Value="Logout" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEasytravelLogout2" Key="{F0616F8F-69A7-4608-AAF1-73D646CD7CF3}" ParallelWalk="True">
+								<Image FileName="-664967535" Left="-3" Top="71" Right="1919" Bottom="1038" />
+								<TypeInfo Item0="{099D0D99-3094-4CAA-88FB-053DBB8355D6}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://54.245.179.85:8080/logout.jsf" Type="5" />
+									</Property>
+								</Properties>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -145,6 +253,16 @@
 				</Child>
 			</Child>
 			<Child Name="pageEasytravelLogout" Owner="{C48A18BA-EFDC-4502-841B-765AD01480F6}" />
+			<Child Name="pageEasytravelOneStepToHappiness2" Owner="{DC650DC8-93E3-451E-A12B-33EBA7CABE03}">
+				<Child Name="formLoginform" Owner="{6CAB2BBA-CD83-4EA6-B699-FE776E376AC9}">
+					<Child Name="textboxUsername" Owner="{A093BDC2-1F2C-4BDD-B5E0-279C9F755AAA}" />
+					<Child Name="passwordboxPassword" Owner="{F3673BBC-A1FF-46F5-A672-18816E11A9D1}" />
+					<Child Name="linkLoginlink" Owner="{0CEA86D4-7DB7-48B2-8771-94B0D327B1D0}" />
+					<Child Name="submitbuttonLogin" Owner="{10105D55-6E6A-46F8-80A5-0CD9D7638557}" />
+					<Child Name="linkLogoutlink" Owner="{4CEABD94-904B-4EC4-9719-15D0AF4927C8}" />
+				</Child>
+			</Child>
+			<Child Name="pageEasytravelLogout2" Owner="{F0616F8F-69A7-4608-AAF1-73D646CD7CF3}" />
 		</Child>
 	</LogicalNodes>
 	<TypeInfo StoreCodeCompletion="1">
