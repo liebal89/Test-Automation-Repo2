@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{AF57BAFD-A2CB-44D3-9687-CE9F9B8EC1CC}"/>
+			</Node>
+			<Node name="{48e2d4a5-4805-49fa-afd4-90fd2e598bad}">
+				<Prp name="relpath" type="S" value="easyTravel Test Automation\Login_Logout.mds.tcLS"/>
+			</Node>
+			<Node name="{549b29e4-927d-4f98-b1fb-879a308f5806}">
+				<Prp name="relpath" type="S" value="Terms_and_Privacy\Contact_Us_Larger_Map.mds.tcLS"/>
+			</Node>
+			<Node name="{780212fb-6f38-4894-82dc-44599c315988}">
+				<Prp name="relpath" type="S" value="Login_Logout\Login_Logout.mds.tcLS"/>
+			</Node>
+			<Node name="{af57bafd-a2cb-44d3-9687-ce9f9b8ec1cc}">
+				<Prp name="relpath" type="S" value="Contact_Us_Larger_Map\Terms_and_Privacy.mds.tcLS"/>
+			</Node>
+			<Node name="envmngrlogs">
+				<Prp name="key" type="S" value="{AFE0FF15-4AA8-490E-8EEE-80EE08A43B02}"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{AB568C06-5DBD-43E3-AED9-B929EAE223F6}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

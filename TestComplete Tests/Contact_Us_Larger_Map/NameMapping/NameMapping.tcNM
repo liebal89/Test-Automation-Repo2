@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{BB59BB2E-343F-4916-AFA0-12EB6DF50C1B}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{E05FB607-44BE-4F81-A461-94EE92C0D3B6}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value PropertyType="0" Value="Browser" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageEasytravelTermsOfUse" Key="{45AD4669-95B6-40AD-B4CE-88A3B530AA62}" ParallelWalk="True">
+								<Image FileName="-783674813" Left="0" Top="111" Right="1920" Bottom="1021" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://54.202.35.86:8080/legal-orange.jsf*" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formIceform" Key="{C06AD045-0AED-4655-94B8-ADB0A4E045CA}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="319390187" Left="302" Top="200" Right="1592" Bottom="200" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="iceform" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelMainbox" Key="{7B3B5C2F-BF9E-40A2-8503-23B32EF16ADE}" ParallelWalk="True">
+												<Image FileName="319390187" Left="302" Top="215" Right="1140" Bottom="905" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelMainscrollbox" Key="{F496A3DC-369D-41A4-89BA-BBA580B3F942}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="319390187" Left="303" Top="253" Right="1139" Bottom="904" />
+														<TypeInfo Item0="{A7E80AFD-8A0E-4778-95BD-2321B419CBD5}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="linkPrivacyPolicy" Key="{490F2980-D312-47B3-B139-98F436742987}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="672279030" Left="1169" Top="163" Right="1342" Bottom="201" />
+										<TypeInfo Item0="{A7E80AFD-8A0E-4778-95BD-2321B419CBD5}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Link" Type="5" />
+											</Property>
+											<Property Name="contentText">
+												<Value PropertyType="0" Value="Privacy Policy" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEasytravelPrivacyPolicy" Key="{D3AE0814-783A-49FC-8786-AB7A9A70C265}" ParallelWalk="True">
+								<Image FileName="-783674813" Left="0" Top="111" Right="1920" Bottom="1021" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://54.202.35.86:8080/privacy-orange.jsf" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formIceform" Key="{4707D467-2514-4143-8370-2B29ABDFBE4F}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="876727316" Left="302" Top="200" Right="1592" Bottom="200" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="iceform" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelMainbox" Key="{D4295CDC-FC6E-4178-AD76-214F4F408C74}" ParallelWalk="True">
+												<Image FileName="876727316" Left="302" Top="215" Right="1140" Bottom="905" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelMainscrollbox" Key="{1DF811DF-9003-4E2C-9FAA-0F629B89DFC9}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="876727316" Left="303" Top="253" Right="1139" Bottom="904" />
+														<TypeInfo Item0="{A7E80AFD-8A0E-4778-95BD-2321B419CBD5}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEasytravelOneStepToHappiness" Key="{9F4420F0-6FCF-4680-9019-1878498A0D1A}" ParallelWalk="True">
+								<Image FileName="-783674813" Left="0" Top="111" Right="1920" Bottom="1021" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://54.202.35.86:8080/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkTermsOfUse" Key="{0724D25D-15C5-40E9-A45F-2D18A82AAD12}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-1814057665" Left="1001" Top="163" Right="1166" Bottom="201" />
+										<TypeInfo Item0="{A7E80AFD-8A0E-4778-95BD-2321B419CBD5}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Link" Type="5" />
+											</Property>
+											<Property Name="contentText">
+												<Value PropertyType="0" Value="Terms of Use" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{E05FB607-44BE-4F81-A461-94EE92C0D3B6}">
+			<Child Name="pageEasytravelTermsOfUse" Owner="{45AD4669-95B6-40AD-B4CE-88A3B530AA62}">
+				<Child Name="formIceform" Owner="{C06AD045-0AED-4655-94B8-ADB0A4E045CA}">
+					<Child Name="panelMainscrollbox" Owner="{F496A3DC-369D-41A4-89BA-BBA580B3F942}" />
+				</Child>
+				<Child Name="linkPrivacyPolicy" Owner="{490F2980-D312-47B3-B139-98F436742987}" />
+			</Child>
+			<Child Name="pageEasytravelPrivacyPolicy" Owner="{D3AE0814-783A-49FC-8786-AB7A9A70C265}">
+				<Child Name="formIceform" Owner="{4707D467-2514-4143-8370-2B29ABDFBE4F}">
+					<Child Name="panelMainscrollbox" Owner="{1DF811DF-9003-4E2C-9FAA-0F629B89DFC9}" />
+				</Child>
+			</Child>
+			<Child Name="pageEasytravelOneStepToHappiness" Owner="{9F4420F0-6FCF-4680-9019-1878498A0D1A}">
+				<Child Name="linkTermsOfUse" Owner="{0724D25D-15C5-40E9-A45F-2D18A82AAD12}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+	<TypeInfo StoreCodeCompletion="1">
+		<Child Hash="-1648173679" Key="{A7E80AFD-8A0E-4778-95BD-2321B419CBD5}">
+			<Data Properties="F60801294A36D74293D4E12D5152CB6AUFFFFFFFFFFFFFFFFV4L9ZZY">
+				<FunctionDescriptions>
+					<Child Name="ObjectType" IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="ObjectIdentifier" IsBasic="True" Data="ZI4L2L4ZOCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+	</TypeInfo>
+</Root>

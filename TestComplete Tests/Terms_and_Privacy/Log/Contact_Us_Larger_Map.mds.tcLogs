@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43888.5091086574"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{958F5BA5-90E6-4AC2-94BE-1DC90FC268D1}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [terms_and_privacy]"/>
+				<Prp name="relpath" type="S" value="2_27_2020_12_13 PM_06_988\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43888.509320162"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{33C92EE6-7678-4F7A-8604-277FE324AC07}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [terms_and_privacy]"/>
+				<Prp name="relpath" type="S" value="2_27_2020_12_13 PM_25_262\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43888.5105725579"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D69B190F-280D-4D52-86AD-0DC84DCF8279}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [contact_us_larger_map]"/>
+				<Prp name="relpath" type="S" value="2_27_2020_12_15 PM_13_469\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43888.5109522801"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{902525D4-1F1A-427E-A0D2-D25DD1AFC0C6}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [contact_us_larger_map]"/>
+				<Prp name="relpath" type="S" value="2_27_2020_12_15 PM_46_277\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43888.5185258912"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{338D7670-B324-44FE-B919-50AA5E03E415}"/>
+				<Prp name="nameofroot" type="S" value="Contact_Us_Larger_Map"/>
+				<Prp name="relpath" type="S" value="2_27_2020_12_26 PM_40_637\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43888.5272125463"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F70EC4FA-F9E2-49EA-82A4-F63BA428F2F5}"/>
+				<Prp name="nameofroot" type="S" value="Contact_Us_Larger_Map"/>
+				<Prp name="relpath" type="S" value="2_27_2020_12_39 PM_11_164\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43888.5346098727"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2E873DCF-074C-4BBD-A6CC-1712C32FB424}"/>
+				<Prp name="nameofroot" type="S" value="Contact_Us_Larger_Map"/>
+				<Prp name="relpath" type="S" value="2_27_2020_12_49 PM_50_293\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

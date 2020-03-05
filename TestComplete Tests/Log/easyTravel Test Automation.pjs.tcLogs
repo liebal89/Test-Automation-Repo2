@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43888.5193910532"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F0055E13-9764-4B79-AB61-7CB5D25172D7}"/>
+				<Prp name="nameofroot" type="S" value="easyTravel Test Automation"/>
+				<Prp name="relpath" type="S" value="2_27_2020_12_27 PM_55_387\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43888.5197362963"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BE8A3D1F-7F1F-48DC-834F-2E02B39CA50A}"/>
+				<Prp name="nameofroot" type="S" value="easyTravel Test Automation"/>
+				<Prp name="relpath" type="S" value="2_27_2020_12_28 PM_25_216\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43888.5217358449"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3B5F6FED-82AE-4F3D-A47B-956E7806EB0F}"/>
+				<Prp name="nameofroot" type="S" value="easyTravel Test Automation"/>
+				<Prp name="relpath" type="S" value="2_27_2020_12_31 PM_17_977\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43888.5226751389"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8A531B07-DB80-4AD1-9758-8EACA611C789}"/>
+				<Prp name="nameofroot" type="S" value="easyTravel Test Automation"/>
+				<Prp name="relpath" type="S" value="2_27_2020_12_32 PM_39_132\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43888.5244329051"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{746CD1CA-C975-4101-BC9D-71A2E3CFC0B3}"/>
+				<Prp name="nameofroot" type="S" value="easyTravel Test Automation"/>
+				<Prp name="relpath" type="S" value="2_27_2020_12_35 PM_11_3\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{6511DB44-2372-47B8-8349-ADA0DB4D9E14}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

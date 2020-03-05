@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{60ADD8BF-9A4B-4BA2-8E2B-5F5C7812B77A}">
+	<children>
+		<child name="Terms_and_Privacy" key="{AF57BAFD-A2CB-44D3-9687-CE9F9B8EC1CC}" path="Contact_Us_Larger_Map\Terms_and_Privacy.mds" />
+		<child name="Contact_Us_Larger_Map" key="{549B29E4-927D-4F98-B1FB-879A308F5806}" path="Terms_and_Privacy\Contact_Us_Larger_Map.mds" />
+		<child name="Login_Logout" key="{780212FB-6F38-4894-82DC-44599C315988}" path="Login_Logout\Login_Logout.mds" />
+	</children>
+	<testItems key="{3BEC3B3D-0F05-468D-8055-45DC3125A348}">
+		<children>
+			<testItem key="{AF57BAFD-A2CB-44D3-9687-CE9F9B8EC1CC}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{549B29E4-927D-4F98-B1FB-879A308F5806}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{780212FB-6F38-4894-82DC-44599C315988}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{EE07FB97-0086-4EE8-98DE-B418D93598AE}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{A00DDF55-4C7A-4FC4-9616-CD00A7E1F312}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="True" />
+	</extender>
+</Root>

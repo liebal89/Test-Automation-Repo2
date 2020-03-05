@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43888.5272130556"/>
+						<Prp name="durationwithoutchildren" type="I" value="10672"/>
+						<Prp name="duration" type="I" value="10672"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="name" type="S" value="Contact_Us_Larger_Map"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1AEYAQwA2ADYAOQBDADcALQAzADcARQBDAC0ANAA0ADIARAAtAEEAMAA1AEIALQA1ADkAMgBGADEARAAxADMARAA1AEIAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="43888.5272130556"/>
+				<Prp name="duration" type="I" value="10672"/>
+				<Prp name="name" type="S" value="Contact_Us_Larger_Map"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="host" type="S" value="EC2AMAZ-2O09G2E"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="user" type="S" value="Administrator"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="stop" type="D" value="43888.5273646875"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="key" type="S" value="{A6781A1F-8221-4DFD-AED2-FF32D19A59F3}"/>
+		<Prp name="testname" type="S" value="Contact_Us_Larger_Map"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="43888.5272126736"/>
+		<Prp name="name" type="S" value="easyTravel Test Automation"/>
+	</Node>
+</Nodes>
