@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="Ambiguous recognition of the tested object."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4ADUAQgBEAEIAQgA1AEYALQA0AEIARgBBAC0ANAAzAEEAMgAtAEEAQgA5ADQALQA1ADcAMwAxAEEAOAA3ADgANQAzADAAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="18852"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="starttime" type="D" value="43896.5746073264"/>
+						<Prp name="name" type="S" value="Login_Logout"/>
+						<Prp name="duration" type="I" value="18852"/>
+					</Node>
+				</Node>
+				<Prp name="warningtests" type="I" value="1"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="Login_Logout"/>
+				<Prp name="starttime" type="D" value="43896.5746073264"/>
+				<Prp name="duration" type="I" value="18852"/>
+			</Node>
+		</Node>
+		<Prp name="name" type="S" value="easyTravel Test Automation"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="EC2AMAZ-0Q631KU"/>
+		<Prp name="executionstatus" type="I" value="1"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="43896.5746072338"/>
+		<Prp name="testname" type="S" value="Login_Logout"/>
+		<Prp name="key" type="S" value="{F43C08C7-E623-4CD9-AD31-F62B706E01B1}"/>
+		<Prp name="user" type="S" value="Administrator"/>
+		<Prp name="warningtests" type="I" value="1"/>
+		<Prp name="stop" type="D" value="43896.5748323264"/>
+	</Node>
+</Nodes>
