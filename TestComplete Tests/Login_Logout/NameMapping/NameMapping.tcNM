@@ -149,7 +149,7 @@
 											</Property>
 										</Properties>
 										<Children>
-											<Child Name="panelIcepnlpop" Key="{A1913606-0E47-4DC4-A1BC-407FA5FEFCDE}" ExtendedFind="True" ParallelWalk="True">
+											<Child Name="panelIcepnlpop" Key="{A1913606-0E47-4DC4-A1BC-407FA5FEFCDE}" ExtendedFind="True" ParallelWalk="True" MultiVersion="True">
 												<Image FileName="1074369213" Left="1058" Top="125" Right="1380" Bottom="263" />
 												<Properties>
 													<Property Name="ObjectType">
