@@ -77,12 +77,12 @@
 			</Node>
 			<Node name="log idx=0006">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43896.6230258796"/>
+				<Prp name="datetime" type="D" value="43896.6292817477"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{99A8D931-E42B-4E27-A39C-DD71D5E37131}"/>
+				<Prp name="key" type="S" value="{D3FA70F5-3A78-4014-82E9-45209337E24D}"/>
 				<Prp name="nameofroot" type="S" value="Terms_and_Privacy"/>
-				<Prp name="relpath" type="S" value="3_6_2020_2_57 PM_09_437\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
+				<Prp name="relpath" type="S" value="3_6_2020_3_06 PM_09_943\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
