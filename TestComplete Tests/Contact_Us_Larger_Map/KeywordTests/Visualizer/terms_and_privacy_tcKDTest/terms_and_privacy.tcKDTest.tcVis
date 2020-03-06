@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{90FB2D04-2ADA-44A9-879B-F15201294992}" />
+	<data key="{90FB2D04-2ADA-44A9-879B-F15201294992}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="43896.6178356481" objectName="Aliases.browser.pageEasytravelOneStepToHappiness2.linkTermsOfUse" objectLeft="986" objectTop="106" objectRight="1094" objectBottom="131" clickPointX="1031" clickPointY="107" imageFileName="tcvi6733048494320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="43896.6178587963" objectName="Aliases.browser.pageEasytravelTermsOfUse2.formIceform.panelMainscrollbox" objectLeft="521" objectTop="166" objectRight="1078" objectBottom="600" clickPointX="1067" clickPointY="202" imageFileName="tcvi6733231294321.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="43896.6178935185" objectName="Aliases.browser.pageEasytravelTermsOfUse2.linkPrivacyPolicy" objectLeft="1096" objectTop="106" objectRight="1211" objectBottom="131" clickPointX="1136" clickPointY="113" imageFileName="tcvi6733546894322.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="43896.6179166667" objectName="Aliases.browser.pageEasytravelPrivacyPolicy2.formIceform.panelMainscrollbox" objectLeft="521" objectTop="166" objectRight="1078" objectBottom="600" clickPointX="1070" clickPointY="198" imageFileName="tcvi6733762594323.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

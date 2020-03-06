@@ -152,6 +152,139 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageEasytravelTermsOfUse2" Key="{4830FF30-D0C4-48AA-B501-15013EA94FE0}" ParallelWalk="True">
+								<Image FileName="1153615802" Left="-3" Top="71" Right="1919" Bottom="1038" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://54.245.179.85:8080/legal-orange.jsf*" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formIceform" Key="{6B7DA299-2360-407D-9700-048D5F82E22A}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1714813922" Left="520" Top="130" Right="1380" Bottom="130" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="iceform" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelMainbox" Key="{C8EEE870-6822-46C2-AF3B-C0C8B142104F}" ParallelWalk="True">
+												<Image FileName="1714813922" Left="520" Top="140" Right="1079" Bottom="601" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelMainscrollbox" Key="{228A8EB8-5C10-42FB-B077-E80E67D3181A}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="1714813922" Left="521" Top="166" Right="1078" Bottom="600" />
+														<TypeInfo Item0="{A7E80AFD-8A0E-4778-95BD-2321B419CBD5}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="linkPrivacyPolicy" Key="{F2F69B3B-D6F7-4501-BA05-41E8EFFFADC8}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="671475913" Left="1096" Top="106" Right="1211" Bottom="131" />
+										<TypeInfo Item0="{A7E80AFD-8A0E-4778-95BD-2321B419CBD5}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Link" Type="5" />
+											</Property>
+											<Property Name="contentText">
+												<Value PropertyType="0" Value="Privacy Policy" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEasytravelPrivacyPolicy2" Key="{FA3600D1-64CA-41C0-B1A7-9BCD21F8B9B3}" ParallelWalk="True">
+								<Image FileName="1153615802" Left="-3" Top="71" Right="1919" Bottom="1038" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://54.245.179.85:8080/privacy-orange.jsf" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formIceform" Key="{DC296983-B6F1-44AE-BDFD-BF59A8D863F1}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1261676135" Left="520" Top="130" Right="1380" Bottom="130" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="iceform" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelMainbox" Key="{9981C922-F148-4D5D-BC64-B9020AEC6DFD}" ParallelWalk="True">
+												<Image FileName="1261676135" Left="520" Top="140" Right="1079" Bottom="601" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelMainscrollbox" Key="{C6AC2E9C-04A9-47BF-819B-0BAA6C13CA3B}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="1261676135" Left="521" Top="166" Right="1078" Bottom="600" />
+														<TypeInfo Item0="{A7E80AFD-8A0E-4778-95BD-2321B419CBD5}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEasytravelOneStepToHappiness2" Key="{5E7AD224-1E6F-4834-8FC9-7C369282585C}" ParallelWalk="True">
+								<Image FileName="1153615802" Left="-3" Top="71" Right="1919" Bottom="1038" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://54.245.179.85:8080/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkTermsOfUse" Key="{6B8CDE6D-78CA-46BB-A5F7-45A61789B745}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1153615802" Left="986" Top="106" Right="1094" Bottom="131" />
+										<TypeInfo Item0="{A7E80AFD-8A0E-4778-95BD-2321B419CBD5}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Link" Type="5" />
+											</Property>
+											<Property Name="contentText">
+												<Value PropertyType="0" Value="Terms of Use" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -173,6 +306,20 @@
 			</Child>
 			<Child Name="pageEasytravelOneStepToHappiness" Owner="{9F4420F0-6FCF-4680-9019-1878498A0D1A}">
 				<Child Name="linkTermsOfUse" Owner="{0724D25D-15C5-40E9-A45F-2D18A82AAD12}" />
+			</Child>
+			<Child Name="pageEasytravelTermsOfUse2" Owner="{4830FF30-D0C4-48AA-B501-15013EA94FE0}">
+				<Child Name="formIceform" Owner="{6B7DA299-2360-407D-9700-048D5F82E22A}">
+					<Child Name="panelMainscrollbox" Owner="{228A8EB8-5C10-42FB-B077-E80E67D3181A}" />
+				</Child>
+				<Child Name="linkPrivacyPolicy" Owner="{F2F69B3B-D6F7-4501-BA05-41E8EFFFADC8}" />
+			</Child>
+			<Child Name="pageEasytravelPrivacyPolicy2" Owner="{FA3600D1-64CA-41C0-B1A7-9BCD21F8B9B3}">
+				<Child Name="formIceform" Owner="{DC296983-B6F1-44AE-BDFD-BF59A8D863F1}">
+					<Child Name="panelMainscrollbox" Owner="{C6AC2E9C-04A9-47BF-819B-0BAA6C13CA3B}" />
+				</Child>
+			</Child>
+			<Child Name="pageEasytravelOneStepToHappiness2" Owner="{5E7AD224-1E6F-4834-8FC9-7C369282585C}">
+				<Child Name="linkTermsOfUse" Owner="{6B8CDE6D-78CA-46BB-A5F7-45A61789B745}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
