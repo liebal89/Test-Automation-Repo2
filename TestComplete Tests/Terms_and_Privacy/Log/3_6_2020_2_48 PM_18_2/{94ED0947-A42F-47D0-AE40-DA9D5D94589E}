@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 0">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43896.6169232292"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14px;}&lt;/style&gt;&lt;/head&gt;											  &lt;body&gt;											  &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Mozilla Firefox ver.73.0.1 (x64)&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Executable:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;C:\Program Files\Mozilla Firefox\firefox.exe&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td style=&quot;padding-right: 8px;&quot;&gt;&lt;b&gt;Command-line args:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;URL:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;about:blank&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PID:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;10568&lt;/td&gt;&lt;/tr&gt;											  &lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="Mozilla Firefox was launched."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43896.6170598264"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="601"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEasytravelContact2.formIceform.linkViewOnLargerMap"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="647"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="592"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="556"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="586"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object bottom" type="I" value="599"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="datetime" type="D" value="43896.6161921296"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="621"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEasytravelContact2.formIceform.linkViewOnLargerMap"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="647"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="593"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="556"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="586"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="image file name" type="S" value="tcvi6718782881882.png"/>
+					<Prp name="object bottom" type="I" value="599"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43896.6170613194"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (45, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEasytravelContact2.formIceform.linkViewOnLargerMap&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;http://54.245.179.85:8080/contact-orange.jsf&quot;).Panel(&quot;margins&quot;).Panel(1).Panel(0).Panel(0).Form(&quot;iceform&quot;).Panel(0).Panel(0).Panel(0).Panel(0).Panel(0).Panel(1).Panel(0).Link(0))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43896.6170297801"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="URL: http://54.245.179.85:8080/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="message" type="S" value="Navigating to the http://54.245.179.85:8080/ page."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43896.6170061921"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="URL: http://54.245.179.85:8080/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="message" type="S" value="Navigating to the http://54.245.179.85:8080/ page."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43896.6169782176"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="URL: about:blank&#xA;&#xA;Aliases.browser"/>
+			<Prp name="message" type="S" value="Navigating to the about:blank page."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43896.617031794"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="948"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEasytravelOneStepToHappiness2.linkContact"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="984"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="118"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="913"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="106"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object bottom" type="I" value="131"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="datetime" type="D" value="43896.6161458333"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="950"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEasytravelOneStepToHappiness2.linkContact"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="984"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="117"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="913"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="106"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="image file name" type="S" value="tcvi6718471881880.png"/>
+					<Prp name="object bottom" type="I" value="131"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43896.6170332176"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (35, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEasytravelOneStepToHappiness2.linkContact&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;http://54.245.179.85:8080/&quot;).Panel(&quot;margins&quot;).Panel(0).Panel(0).Panel(0).Panel(0).Link(3))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{DDBC04B5-F179-477E-95A2-B92470F420F4}"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>
