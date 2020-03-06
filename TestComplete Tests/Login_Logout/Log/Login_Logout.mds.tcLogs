@@ -174,6 +174,24 @@
 				<Prp name="relpath" type="S" value="3_6_2020_1_47 PM_26_60\Description.tcLog"/>
 				<Prp name="status" type="I" value="1"/>
 			</Node>
+			<Node name="log idx=0017">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43896.5823034607"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{148281F7-3ADF-4FA2-89E7-FEE9B3DAA874}"/>
+				<Prp name="nameofroot" type="S" value="Login_Logout"/>
+				<Prp name="relpath" type="S" value="3_6_2020_1_58 PM_31_19\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0018">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43896.5830396875"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E500D4DB-986D-436A-933F-60DCE8415B43}"/>
+				<Prp name="nameofroot" type="S" value="Login_Logout"/>
+				<Prp name="relpath" type="S" value="3_6_2020_1_59 PM_34_629\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
