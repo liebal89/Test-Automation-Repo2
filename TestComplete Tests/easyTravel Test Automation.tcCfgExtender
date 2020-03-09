@@ -21,7 +21,7 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{90FB2D04-2ADA-44A9-879B-F15201294992}"/>
+				<Prp name="activity" type="S" value="{52DB7099-A874-4558-9405-FABB34446E8F}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
 				<Node name="{50abe5bb-8cdf-450d-be98-b36fd6f3f88e}">

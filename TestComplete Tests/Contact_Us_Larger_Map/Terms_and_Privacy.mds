@@ -609,12 +609,12 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
-		<setting name="ZFJ_Cycle" type="5" value="" />
+		<setting name="ZFJ_Cycle" type="5" value="Ad hoc" />
 		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
 		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
 		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
 		<setting name="ZFJ_ExecutionStepStatus_Unexecuted" type="5" value="UNEXECUTED" />
-		<setting name="ZFJ_InstanceType" type="6" rowIndex="1" colIndex="0">
+		<setting name="ZFJ_InstanceType" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -623,12 +623,12 @@
 				<row val0="Zephyr for Jira Cloud" />
 			</data>
 		</setting>
-		<setting name="ZFJ_JiraLogin" type="5" value="" />
-		<setting name="ZFJ_JiraPassword" type="5" value="" />
-		<setting name="ZFJ_JiraProject" type="5" value="" />
-		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_JiraLogin" type="5" value="liebal89" />
+		<setting name="ZFJ_JiraPassword" type="5" value="3A02BEEA41C532BF3CA5028CDAC59D6947E2910FC01DE9DED70D3E2DCA" />
+		<setting name="ZFJ_JiraProject" type="5" value="Test Automation" />
+		<setting name="ZFJ_JiraUrl" type="5" value="http://54.188.144.245:8080/" />
 		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
-		<setting name="ZFJ_Version" type="5" value="" />
+		<setting name="ZFJ_Version" type="5" value="&lt;Unscheduled&gt;" />
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
