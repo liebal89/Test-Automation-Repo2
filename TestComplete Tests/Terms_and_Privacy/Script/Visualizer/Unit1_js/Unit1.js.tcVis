@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{6133EF97-498D-4195-B98F-53E38F67BAEC}" />
+	<data key="{6133EF97-498D-4195-B98F-53E38F67BAEC}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="43896.6161458333" objectName="Aliases.browser.pageEasytravelOneStepToHappiness2.linkContact" objectLeft="913" objectTop="106" objectRight="984" objectBottom="131" clickPointX="950" clickPointY="117" imageFileName="tcvi67184718818801.png" storageFileName="tcvi67184718818801" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="22" kind="0" dateTime="43896.6161921296" objectName="Aliases.browser.pageEasytravelContact2.formIceform.linkViewOnLargerMap" objectLeft="556" objectTop="586" objectRight="647" objectBottom="599" clickPointX="621" clickPointY="593" imageFileName="tcvi67187828818821.png" storageFileName="tcvi67187828818821" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

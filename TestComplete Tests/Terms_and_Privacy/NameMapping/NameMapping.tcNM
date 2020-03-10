@@ -174,7 +174,7 @@
 										<Value PropertyType="0" Value="Page" Type="5" />
 									</Property>
 									<Property Name="URL">
-										<Value PropertyType="0" Value="http://54.245.179.85:8080/contact-orange.jsf" Type="5" />
+										<Value PropertyType="0" Value="http://54.245.179.85:8080/contact-orange.jsf*" Type="5" />
 									</Property>
 								</Properties>
 								<Children>
@@ -263,6 +263,31 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="pageEasytravelOneStepToHappiness3" Key="{2C8B9967-B699-4169-9709-1D83BBCAEE98}" ParallelWalk="True">
+								<Image FileName="-1049098584" Left="-2" Top="90" Right="2558" Bottom="1387" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://54.245.179.85:8079/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkContact" Key="{2AB6C208-F4D3-4F00-9C22-3835030AC3D2}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-1990503336" Left="1223" Top="134" Right="1310" Bottom="164" />
+										<TypeInfo Item0="{3F1375B8-9CAD-4E58-AB0C-CC88137C8B39}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Link" Type="5" />
+											</Property>
+											<Property Name="contentText">
+												<Value PropertyType="0" Value="Contact" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -289,6 +314,9 @@
 				</Child>
 			</Child>
 			<Child Name="pageGoogleMaps" Owner="{01AEA92B-CC0F-4E24-BB04-F3DFE81A080E}" />
+			<Child Name="pageEasytravelOneStepToHappiness3" Owner="{2C8B9967-B699-4169-9709-1D83BBCAEE98}">
+				<Child Name="linkContact" Owner="{2AB6C208-F4D3-4F00-9C22-3835030AC3D2}" />
+			</Child>
 		</Child>
 	</LogicalNodes>
 	<TypeInfo StoreCodeCompletion="1">

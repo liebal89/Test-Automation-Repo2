@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{7AE1478B-935C-44B2-AE75-0F28DFC17149}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+				<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="firefox">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="about:blank" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Navigates to the &apos;%p1&apos; address." Action="ToUrl" InvokeKind="-1">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="http://54.245.179.85:8079/" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser;" />
+				</Data>
+			</Operation>
+			<Operation Type="{4D7C45F6-68A3-4AA0-AF0C-910A0747E655}">
+				<Data Description="Create and send an HTTP request with the specified method">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Method" DefVarType="8" VarType="8" ValueType="6" ValueValue="HEAD" />
+						<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="http://54.245.179.85.8079" />
+						<Parameter Name="User" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Password" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="CheckStatusCode" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Body" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Header:x-dynatrace-functional-test" DefVarType="12" VarType="8" ValueType="6" ValueValue="contact-us" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageEasytravelOneStepToHappiness3.linkContact;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageEasytravelOneStepToHappiness3;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Close" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{55CB305B-AA3A-464C-A4D6-C149ADC27189}" />
+	<Parameters Key="{15D34B7E-5C04-48D4-8AB7-6A010C747247}" />
+</Root>

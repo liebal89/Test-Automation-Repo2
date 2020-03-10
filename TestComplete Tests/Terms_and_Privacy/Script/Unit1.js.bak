@@ -1,0 +1,17 @@
+﻿function contact_us_larger_map()
+{
+  //Launches the specified browser and opens the specified URL in it.
+  Browsers.Item(btFirefox).Run("about:blank");
+  //Navigates to the ''http://54.245.179.85:8080/'' address.
+  Aliases.browser.ToUrl("http://54.245.179.85:8080/");
+  //Opens the specified URL in a running instance of the specified browser.
+  Browsers.Item(btFirefox).Navigate("http://54.245.179.85:8080/");
+  //Clicks the 'linkContact' control.
+  Aliases.browser.pageEasytravelOneStepToHappiness2.linkContact.Click();
+  //Waits until the browser loads the page and is ready to accept user input.
+  Aliases.browser.pageEasytravelContact2.Wait();
+  //Clicks the 'linkViewOnLargerMap' control.
+  Aliases.browser.pageEasytravelContact2.formIceform.linkViewOnLargerMap.Click();
+  //Waits until the browser loads the page and is ready to accept user input.
+  Aliases.browser.pageGoogleMaps.Wait();
+}
